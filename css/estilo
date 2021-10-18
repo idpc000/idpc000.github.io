@@ -32,7 +32,7 @@ font-size: 1.2em;
 
 a {
 
-color: #0000EE;
+color: #ffffff;
 text-decoration: underline;
 
 }
