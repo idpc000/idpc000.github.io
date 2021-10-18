@@ -1,0 +1,62 @@
+html, body {
+
+text-align: center;
+color: white;
+
+}
+
+h1 {
+
+color:whitesmoke;
+font-size: 3.5em;
+font-weight: bold;   
+padding-top: 69px;
+
+}
+
+body {
+
+background-image: url('http://www.mille-soeren.dk/10_Baggrunde_Bar/Black_blinking_stars.gif');
+background-repeat: repeat;
+
+}
+
+nav {
+
+color: white;
+text-align: center;
+font-family: 'Times, serif';
+font-size: 1.2em;
+
+}
+
+a {
+
+color: #0000EE;
+text-decoration: underline;
+
+}
+
+a:visited {
+
+color: inherit;
+
+}
+
+a:hover {
+
+color: orange;
+
+}
+
+.navegador {
+
+border: 1px solid white;
+padding: 1em;
+max-width: 22em;
+margin: auto;
+margin-top: 1em;
+
+
+}
+
