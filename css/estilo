@@ -16,8 +16,8 @@ padding-top: 69px;
 
 body {
 
-background-image: url('http://www.mille-soeren.dk/10_Baggrunde_Bar/Black_blinking_stars.gif');
-background-repeat: repeat;
+background-image: url('https://media3.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47pot3rw2vhez2spjeqffgi18enas77zuhzrumh7dt&rid=giphy.gif&ct=g');
+background-size: cover;
 
 }
 
