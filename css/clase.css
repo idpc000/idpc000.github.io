@@ -1,0 +1,76 @@
+body { 
+
+    margin: 5%; 
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+  
+p {
+      
+    font-family: "Comic Sans MS";
+    margin-left: 1,5%; 
+    max-width: 50%; 
+    margin-top: 3%;
+
+}
+
+h1 {
+
+    font-family: "Comic Sans MS";
+    font-size: 3em;
+    text-decoration: underline ;
+
+}
+
+
+div {
+
+    max-width: 60%;
+    font-size: 100%;
+    padding-top: 2.5%;
+
+}
+
+ul {
+
+    /* Hacemos que la lista tenga un display flex en diferentes líneas,
+    para que no se desborde.*/
+
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+li, li + li::before {
+
+    list-style-image: url(img/estrella.png);
+    width: 20%;
+   
+
+ }
+
+/* CSS para los enlaces */
+
+a:link {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2em;
+    
+}
+    
+a:visited {
+    
+color: inherit;
+    
+}
+    
+a:hover {
+    
+color: orange;
+    
+}
+
