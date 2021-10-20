@@ -46,7 +46,7 @@ ul {
 
 li, li + li::before {
 
-    list-style-image: url(img/estrella.png);
+    list-style-image: url(img/clase/estrella.png);
     width: 20%;
    
 
