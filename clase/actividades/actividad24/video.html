@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Videos Almacenados en local</title>
+    </head>
+    
+    <body>
+        <h1>Video que están almacenados en Local</h1>
+        <p><img src="imagenes/formatosVideo.jpg" width="400px" alt="Formatos de video"></p>
+        <video poster="imagenes/video.jpg" width="400" height="400" autoplay controls loop muted preload="auto">
+            
+            <!-- Principalmente para Chrome, Firefox y Opera -->
+            <source src="videos/TeoremadeThales.webm" type="video/webm"/>
+            
+            <!-- Principalmente para Chrome, Internet Explorer y Safari -->
+            <source src="videos/TeoremadeThales.mp4" type="video/mp4"/>
+
+            <!-- Principalmente para Chrome, Firefox y Opera -->
+            <source src="videos/TeoremadeThales.ogv" type="video/ogg"/>
+            Tu navegador NO soporta HTML5
+        </video>
+
+        <p>
+            <a href="https://desarrolladoresweb.org/html5/etiqueta-video-html5-atributos-propiedades/"> Para más información de la etiqueta <strong>video</strong></a> 
+        </p>
+
+    </body>
+</html>
