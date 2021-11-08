@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+
+#header {
+    background-color: antiquewhite;
+    max-height: 20%;
+}
+#main-content {
+    background-color:cadetblue;
+}
+#side-content {
+    background-color: chocolate;
+}
+#footer {
+    background-color: cornflowerblue;
+}
+
+table {
+    /* border: 1px solid blue; */
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid gray;
+}
+
+.articulo {
+    background-color: lightsalmon;
+}
