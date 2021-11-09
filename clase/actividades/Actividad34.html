@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <title>Actividad 2.34 - Formulario básico </title>
+</head>
+<body>
+    <h3>Rellena tu CV</h3>
+    <form style="border: 3px solid blue; width: 30%; padding: 1%;" action="/action_page.php" method="post">
+        <p> Nombre: <input type="text" name="nombre" value="" /> </p>
+        <p> Apellidos: <input type="text" name="apellidos" value="" /> </p>
+        <p> Contraseña: <input type="password" name="contrasenia" value="" /> </p>
+        <p> Repetir contraseña: <input type="password" name="contrasenia" value="" /> </p>
+        <p> DNI: <input type="text" name="dni" value="" size="10" maxlength="9" /> </p>
+        Sexo:
+        <div>
+            <input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+        </div>
+        <div>
+            <input type="radio" name="sexo" value="mujer" /> Mujer
+        </div>
+        <p> Incluir mi foto <input type="file" name="foto" /> </p>
+        <input name="susBoletin" type="checkbox" value="boletin" /> Suscribirme al boletín de noticias.
+        <p>
+            <input type="reset" name="limpiar" value="Limpiar" />
+            <input type="button" name="guardar" value="Guardar cambios"/>
+        </p>
+    </form>
+</body>
+<footer> <br>
+    <a href="../index.html">↑</a>
+</footer>
+</html>

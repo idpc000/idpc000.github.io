@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Ejemplo de etiqueta fieldset y legend </title>
+</head>
+<body>
+    <h3>Formulario estructurado</h3>
+    <form action="maneja_formulario.php" method="post">
+        <fieldset style="width: 10%;">
+            <legend>Datos personales</legend>
+            Nombre
+            <input type="text" name="nombre" value="" />
+            Apellidos
+            <input type="text" name="apellidos" value="" />
+            DNI
+            <div>
+                <input type="text" name="dni" size="10" maxlength="9" />
+            </div>
+        </fieldset>
+        <fieldset style="width: 10%;">
+            <legend>Datos de conexión</legend>
+            Nombre de usuario
+            <input type="text" name="nombre" value="" maxlength="10" />
+            Contraseña
+            <input type="password" name="password" value="" maxlength="10" />
+            Repite la contraseña
+            <input type="password" name="password2" value="" maxlength="10" />
+        </fieldset>
+    </form>
+</body>
+<footer> <br>
+    <a href="../index.html">↑</a>
+</footer>
+</html>

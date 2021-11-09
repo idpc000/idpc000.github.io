@@ -1,0 +1,73 @@
+<html>
+
+<head>
+    <title>Ejemplo de tabla compuesta (thead, tbody, tfoot)</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Tabla de ventas</h1>
+    <hr>
+      <h3>Análisis de ventas</h3>
+    <table summary="Análisis de ventas anuales" style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse; text-align: center; width: 40%;">
+        <caption>Análisis de ventas anuales</caption>
+        <thead>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="border: 1px solid; border-color: rgb(160,160,255);" rowspan="2" scope="col">AÑO</th>
+                <th style="padding: 3%;"colspan="4" scope="col">Expansión de ventas</th>
+            </tr>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255); " scope="col">Producto A</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);"scope="col">Producto B</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto C</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto D</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="border: 1px solid; border-color: rgb(160,160,255);" rowspan="2" scope="col">AÑO</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto A</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto B</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto C</th>
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="col">Producto D</th>
+            </tr>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%;" colspan="4" scope="col">Expansión de ventas</th>
+            </tr>
+        </tfoot>
+        <tbody style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="row">N-3</th>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">-</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">-</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">-</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">-</td>
+            </tr>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="row">N-2</th>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">3</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">5</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">8</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">4</td>
+            </tr>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="row">N-1</th>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">4</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">4</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">7</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">3</td>
+            </tr>
+            <tr style="border: 1px solid; border-color: rgb(160,160,255); border-collapse: collapse;">
+                <th style="padding: 3%; border: 1px solid; border-color: rgb(160,160,255);" scope="row">N</th>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">5</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">7</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">6</td>
+                <td style="border: 1px solid; border-color: rgb(160,160,255);">2</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+<footer> <br>
+    <a href="../index.html">↑</a>
+</footer>
+</html>
