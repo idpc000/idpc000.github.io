@@ -33,7 +33,7 @@ font-size: 1.2em;
 a:link {
 
 color: #ffffff;
-text-decoration: underline;
+text-decoration: none;
 
 }
 
