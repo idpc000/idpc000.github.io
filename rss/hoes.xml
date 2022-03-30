@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>
+			Actualidad china
+		</title>
+		<link>
+			https://idpc000.github.io/
+		</link>
+		<description>
+			Actualidad en política China.
+		</description>
+		<language>
+			es-ES
+		</language>
+		<image>
+			<title>
+				Actualidad china
+			</title>
+			<url>
+				https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/2048px-Hammer_and_sickle_red_on_transparent.svg.png
+			</url>
+			<link>
+				https://idpc000.github.io/
+			</link>
+			<width>
+				90
+			</width>
+			<height>
+				36
+			</height>
+		</image>
+	</channel>
+</rss>
