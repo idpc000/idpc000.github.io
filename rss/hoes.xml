@@ -30,19 +30,47 @@
 				36
 			</height>
 		</image>
-
-		  <item>
-			<title> China se convierte en la nueva potencia mundial </title>
-			<guid> https://idpc000.github.io/rss/000001 </guid>
-			<link> https://idpc000.github.io/rss/1.html </link>
-			<description> ¡¡Wow, increíble!! Xi Jinping se marca un 1v9 otra vez... </description>
-	     </item>
-
-		 <item>
-			<title> Tiempo en Beijing  </title>
-			<guid> https://idpc000.github.io/rss/000002 </guid>
-			<link> https://www.tiempo.es/china-beijing-cn1816671.html </link>
-			<description> Nos muestra el tiempo en Beijing (capital basada) a través de la web www.tiempo.es </description>
-	     </item>
+		<item>
+			<title>
+				Tiempo en Beijing 🇨🇳⭐️🥟
+			</title>
+			<guid>
+				https://idpc000.github.io/rss/000001
+			</guid>
+			<link>
+				https://www.tiempo.es/china-beijing-cn1816671.html
+			</link>
+			<description>
+				Nos muestra el tiempo en Beijing (capital basada) a través de la web www.tiempo.es
+			</description>
+		</item>
+		<item>
+			<title>
+				China se convierte en la nueva potencia mundial, Occidente tiembla
+			</title>
+			<guid>
+				https://idpc000.github.io/rss/000002
+			</guid>
+			<link>
+				https://idpc000.github.io/rss/1.html
+			</link>
+			<description>
+				¡¡Wow, increíble!! Xi Jinping se marca un 1v9 otra vez...
+			</description>
+		</item>
+		<item>
+			<title>
+				Taiwán(🤢🤮) se prepara ante China (🤩👍) para posible invasión 
+			</title>
+			<guid>
+				https://idpc000.github.io/rss/000003
+			</guid>
+			<link>
+				https://cnnespanol.cnn.com/2022/03/17/ucrania-causa-preocupacion-taiwan-conflicto-china-trax/
+			</link>
+			<description>
+				Debido a los recientes eventos ocurridos en Ucrania, los rebeldes de Taiwán (país no legítimo) se prepara ante el titán de titanes asiático en el caso de ocupación justificada.
+			</description>
+		</item>
 	</channel>
 </rss>
