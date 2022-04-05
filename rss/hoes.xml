@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
 	<channel>
 		<title>
 			Actualidad china
 		</title>
 		<link>
-			https://idpc000.github.io/
+			https://idpc000.github.io/rss
 		</link>
 		<description>
 			Actualidad en política China.
@@ -21,7 +21,7 @@
 				https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hammer_and_sickle_red_on_transparent.svg/2048px-Hammer_and_sickle_red_on_transparent.svg.png
 			</url>
 			<link>
-				https://idpc000.github.io/
+				https://idpc000.github.io/rss
 			</link>
 			<width>
 				90
@@ -30,5 +30,19 @@
 				36
 			</height>
 		</image>
+
+		  <item>
+			<title> China se convierte en la nueva potencia mundial </title>
+			<guid> https://idpc000.github.io/rss/000001 </guid>
+			<link> https://idpc000.github.io/rss/1.html </link>
+			<description> ¡¡Wow, increíble!! Xi Jinping se marca un 1v9 otra vez... </description>
+	     </item>
+
+		 <item>
+			<title> Tiempo en Beijing  </title>
+			<guid> https://idpc000.github.io/rss/000002 </guid>
+			<link> https://www.tiempo.es/china-beijing-cn1816671.html </link>
+			<description> Nos muestra el tiempo en Beijing (capital basada) a través de la web www.tiempo.es </description>
+	     </item>
 	</channel>
 </rss>
